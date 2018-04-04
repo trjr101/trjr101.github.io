@@ -1,7 +1,11 @@
-.jumbotron {
-	padding-right: 6em;
+.projectsBorder {
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+	background-color: #7B89E8;
 }
-.jumbotron h1 {
-	font-size: 50em;
-	font-family: "Times New Roman", Arial;
+
+.endingBox {
+	background-color: red;
+	color: black;
 }
