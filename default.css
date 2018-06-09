@@ -9,3 +9,7 @@
 	background-color: red;
 	color: black;
 }
+
+.spiral_grad {
+	background: radial-gradient(circle, red, lightgreen, blue);
+}
