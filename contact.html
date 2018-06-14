@@ -3,6 +3,8 @@
 	<head>
 		<title>Contact</title>
 		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel = "stylesheet" type = "text/css" href = "default.css">
 		<!-- Bootstrap files -->
 		<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin = "anonymous">
@@ -28,9 +30,41 @@
 		</nav>
 		<!--Have a few ways to contact me over here-->
 		<div class = "container">
-			<div class = "JumboTron">
-				<h1>Please take a look at my <a href = "https://github.com/trjr101">Github</a> if you can't wait for updates to the website, or if you want to see any of my projects!</h1>
+			<div class = "jumbotron">
+				<h1>Contact Me</h1>
+				<h2>I'd love to hear from you if you're a potential employer or have a cool project you'd like to collaborate on! You can reach me via:</h2>
+				<div class = "listElements">
+					<ol>
+						<li>Email: mihirjetly@gmail.com</li>
+						<li><a href="https://www.linkedin.com/in/mihir-jetly-b91529129/" target="_blank">LinkedIn</a></li>
+					</ol>
+					<p style="font-size: 30px;">Or check out my <a href="https://github.com/trjr101" target="_blank">Github</a>!</p>
+				</div>
 			</div>
 		</div>
+
+		<<!-- <div class = "formContainer">
+			<h2 class = "formHeader">Please contact me through this form if you want to</h2>
+			<br>
+			<form action = "submitContact.php">
+				<p><span class="error">* required field</span></p>
+				<label for="fname">Name</label>
+				<span class="error">* <?php echo $nameErr;?></span>
+				<input type="name" id="fullname" name="name" placeholder="Your full name">
+
+				<label for="email">Email</label>
+				<span class="error">* <?php echo $emailErr;?></span>
+				<input type="email" id="email" name="email" placeholder = "Email" required>
+				
+				<br> 
+				<label for="subject">Subject</label>
+				<input type="text" id="subject" name="subject" placeholder="Write the subject">
+
+				<label for="messageArea">Message</label>
+				<textarea id="message" name = "message" placeholder = "Write your message" style="height:30rem;"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div> -->
 	</body>
 </html>
