@@ -1,4 +1,36 @@
+/*Single page CSS done by Mihir Jetly*/
+#page1 {
+    height: 1100px;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 0px;
+}
+#page2 {
+    height: 2000px;
+    width: 100%;
+    background-color: chocolate;
+    padding: 0px;
+}
+#page3 {
+    height: 1100px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    padding: 0px;
+}
+
+#navigation {
+    position: fixed;
+    width: 100%;
+    color:white;
+}
+
+.page-padding {
+    height:75px;
+    width: 100%;
+}
+
 .projectsBorder {
+    padding: 20px;
 	border-style: solid;
 	border-color: red;
 	border-width: 1px;
@@ -6,6 +38,7 @@
 }
 
 .endingBox {
+    padding: 10px;
 	background-color: red;
 	color: black;
 }
@@ -20,51 +53,4 @@
 
 .additionalInfo{
 	background: white;
-}
-
-.formHeader {
-	display: inline-block;
-	background: white;
-	padding-left: 2rem;
-	padding-right: 2rem;
-}
-
-.formContainer {
-	text-align: center;
-	display: block;
-	padding-bottom: 25rem;
-}
-
-form {
-	padding-left: 2rem;
-	padding-right: 2rem;
-	text-align: left;
-	background: white;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-input[type=text], textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.error {
-	color: #FF0000;
 }
